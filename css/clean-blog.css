@@ -36,9 +36,9 @@ a img:focus {
   cursor: zoom-in;
 }
 
-a.one:link {color:#ff0000;font-family:'微软雅黑'}
-a.one:visited {color:#0000ff;font-family:'微软雅黑'}
-a.one:hover {coloe:grey;font-family:'微软雅黑';}
+a.one:link {color:#ff0000;font-family:'微软雅黑';}
+a.one:visited {color:#0000ff;font-family:'微软雅黑';}
+a.one:focus{coloe:black;font-family:'微软雅黑';}
 
 blockquote {
   color: #777777;
