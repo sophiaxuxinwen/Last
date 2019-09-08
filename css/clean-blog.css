@@ -35,6 +35,11 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
+
+a.one:link {color:#ff0000;font-family:'微软雅黑'}
+a.one:visited {color:#0000ff;font-family:'微软雅黑'}
+a.one:hover {coloe:grey;font-family:'微软雅黑';}
+
 blockquote {
   color: #777777;
   font-style: italic;
@@ -243,8 +248,8 @@ hr.small {
 .post-preview > .post-meta {
   color: #777777;
   font-size: 18px;
-  font-style: italic;
   margin-top: 0;
+  font-family:'微软雅黑'
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
