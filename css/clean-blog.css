@@ -36,20 +36,6 @@ a img:focus {
   cursor: zoom-in;
 }
 
-a.one:link {
-  color:#ff0000;
-  font-family:'微软雅黑';
-  font-size: 14px
-}
-
-a.one:visited {
-  color:#0000ff;
-  font-family:'微软雅黑';
-}
-a.one:focus{
-  color:black;
-  font-family:'微软雅黑';
-}
 
 blockquote {
   color: #777777;
@@ -260,7 +246,7 @@ hr.small {
   color: #777777;
   font-size: 18px;
   margin-top: 0;
-  font-family:'微软雅黑'
+  font-family:'微软雅黑'；
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
@@ -420,4 +406,23 @@ img::-moz-selection {
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
+}
+
+a.one{
+  color:red;
+  font-family:'微软雅黑';
+  font-size: 14px;
+}
+
+a.one:hover{
+  color:green;
+  font-family:'微软雅黑';
+  
+}
+
+p {
+  color: #777777;
+  font-size: 18px;
+  margin-top: 0;
+  font-family:'微软雅黑'；
 }
